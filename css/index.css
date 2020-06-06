@@ -1,0 +1,201 @@
+/* 首页样式文件 */
+.main {
+  margin-top: 10px;
+  width: 980px;
+  height: 455px;
+  margin-left: 220px;
+}
+.focus {
+  float: left;
+  width: 721px;
+  height: 425px;
+}
+.newflash {
+  float: right;
+  width: 250px;
+  height: 425px;
+}
+
+.news {
+  height: 165px;
+  border: 1px solid #cccccc;
+}
+.news_hd {
+  height: 33px;
+  border-bottom: 1px dotted #cccccc;
+  padding: 0 15px;
+}
+.news_hd h5 {
+  float: left;
+  line-height: 33px;
+  font-size: 14px;
+}
+.news_hd .more {
+  float: right;
+  line-height: 33px;
+}
+.news_hd .more::after {
+  content: '\e920';
+  font-family: 'icomoon';
+}
+.news_bd {
+  padding: 5px 15px 0;
+}
+/* 注意文字单行 溢出 及省略号展示 */
+.news_bd ul li {
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  /* 一行 */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.lifeservice {
+  height: 209px;
+  border: 1px solid #e4e4e4;
+  border-top: 0;
+  /* 溢出隐藏*/
+  overflow: hidden;
+}
+.lifeservice ul {
+  width: 252px;
+}
+.lifeservice ul li {
+  float: left;
+  width: 63px;
+  height: 71px;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  text-align: center;
+}
+.lifeservice ul li i {
+  display: inline-block;
+  width: 24px;
+  height: 28px;
+  margin-top: 12px;
+  background-color: pink;
+  background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.bargain {
+  margin-top: 5px;
+}
+
+/* 推荐模块 */
+.recom {
+  height: 163px;
+  margin-top: 12px;
+  background-color: #ebebeb;
+}
+
+.recom_hd {
+  float: left;
+  width: 205px;
+  height: 163px;
+  background-color: #5c5251;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.recom_bd {
+  float: left;
+}
+.recom_bd ul {
+  position: relative;
+}
+.recom_bd ul li {
+  float: left;
+}
+/* 技巧 */
+.recom_bd ul li:nth-child(-n + 3)::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  width: 1px;
+  height: 145px;
+  background-color: #ddd;
+}
+
+/* 楼层区=家用电器 */
+.box_hd {
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #c81623;
+}
+.tab_list {
+  float: right;
+  text-align: center;
+  line-height: 30px;
+}
+.box_hd .tab_list ul li {
+  float: left;
+}
+.box_hd .tab_list ul li a {
+  float: left;
+  margin: 0 15px;
+}
+.box_hd .tab_list ul {
+  position: relative;
+}
+.box_hd .tab_list ul li:nth-child(-n + 8)::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  width: 1px;
+  height: 20px;
+  background-color: #ddd;
+}
+.floor .w {
+  margin-top: 30px;
+}
+
+.box_bd {
+  height: 361px;
+}
+
+.tab_list_item > div {
+  float: left;
+  height: 361px;
+}
+.col_210 {
+  width: 210px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+.col_329 {
+  width: 329px;
+}
+.col_221 {
+  width: 221px;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+}
+.col_219 {
+  width: 219px;
+}
+.col_210 ul {
+  padding-left: 12px;
+}
+.col_210 ul li {
+  float: left;
+  width: 85px;
+  height: 34px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 34px;
+  margin-right: 10px;
+}
+.border_bottom {
+  /* 注意a包含有宽度的元素 需要转换 */
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
+.margin_top30 {
+  margin-top: 30px;
+}
